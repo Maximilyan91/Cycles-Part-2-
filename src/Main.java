@@ -36,6 +36,17 @@ public class Main {
             System.out.println("Год " + year + " численность населения составляет " + popylationY);
         }
 
+        // Задача 4.
+
+        int deposit = 15000;
+        int month2 = 0;
+        while (deposit <= 12_000_000) {
+            month2 +=1 ;
+            deposit = deposit + (deposit/100)*7;
+            System.out.println("За месяц " + month2 + " суммма накоплений составляет " + deposit + " рублей");
+
+
+        }
 
 
 
