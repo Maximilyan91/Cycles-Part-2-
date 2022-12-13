@@ -57,7 +57,15 @@ public class Main {
                 System.out.println("За месяц " + month3 + " суммма накоплений составляет " + deposit2 + " рублей");
             }
         }
+        // Задача 6.
 
+        int depositVasyliy = 15000;
+        for (int monthVasiliy = 0; monthVasiliy <= 108; monthVasiliy++) {
+            depositVasyliy = depositVasyliy + (depositVasyliy/100)*7;
+            if (monthVasiliy % 6 == 0) {
+                System.out.println("За " + monthVasiliy + " месяц cумма накоплений составила " + depositVasyliy);
+            }
+        }
 
 
 
