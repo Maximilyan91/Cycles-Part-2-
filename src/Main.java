@@ -25,7 +25,16 @@ public class Main {
         for (a = 10; a > 0; a--) {
             System.out.print(" " + a);
         }
+        System.out.println();
 
+        // Задача 3.
+
+        int popylationY = 12_000_000;
+        for (int year = 1; year <= 10; year++) {
+           int birthRate = (17*12000) - (8*12000);
+            popylationY = popylationY + birthRate;
+            System.out.println("Год " + year + " численность населения составляет " + popylationY);
+        }
 
 
 
