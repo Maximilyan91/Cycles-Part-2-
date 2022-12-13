@@ -41,12 +41,23 @@ public class Main {
         int deposit = 15000;
         int month2 = 0;
         while (deposit <= 12_000_000) {
-            month2 +=1 ;
+            month2 +=1;
             deposit = deposit + (deposit/100)*7;
             System.out.println("За месяц " + month2 + " суммма накоплений составляет " + deposit + " рублей");
-
-
         }
+
+        // Задача 5.
+        int deposit2 = 15000;
+        int month3 = 0;
+        while (deposit2 <= 12_000_000) {
+            month3 +=1;
+            deposit2 = deposit2 + (deposit2/100)*7;
+            if (month3 % 6 == 0) {
+
+                System.out.println("За месяц " + month3 + " суммма накоплений составляет " + deposit2 + " рублей");
+            }
+        }
+
 
 
 
