@@ -66,8 +66,11 @@ public class Main {
                 System.out.println("За " + monthVasiliy + " месяц cумма накоплений составила " + depositVasyliy);
             }
         }
+        // Задача 7.
 
-
+        for (int friday = 6; friday <= 31; friday += 7) {
+            System.out.println("Сегодня пятница " + friday + " число. Необходимо подготовить отчет.");
+        }
 
 
     }
