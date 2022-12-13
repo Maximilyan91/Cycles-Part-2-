@@ -71,6 +71,18 @@ public class Main {
         for (int friday = 6; friday <= 31; friday += 7) {
             System.out.println("Сегодня пятница " + friday + " число. Необходимо подготовить отчет.");
         }
+        // Задача 8.
+
+        int thisYear = 2022;
+        int minYear = thisYear - 200;
+        int maxYear = thisYear + 100;
+        for (int comet = 0; comet<=3000; comet++) {
+            if (comet % 79 == 0 && comet >= minYear && comet <= maxYear) {
+                System.out.println(comet);
+            }
+
+
+        }
 
 
     }
